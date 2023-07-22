@@ -1,6 +1,8 @@
+// libraries
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
+// blynk infos
 #define BLYNK_TEMPLATE_ID "<BLYNK TEMPLATE ID goes here>"
 #define BLYNK_DEVICE_NAME "<BLYNK DEVICE NAME goes here>"
 #define BLYNK_AUTH_TOKEN "<BLYNK AUTH TOKEN goes here>"
@@ -11,6 +13,7 @@ const int fireSensor = D5;
 const int led = D4;
 const int Buzzer = D6;
 
+//credentials
 char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "<WIFI SSID goes here>"; // wifi name
 char pass[] = "<WIFI PASSWORD goes here>"; // wifi password
